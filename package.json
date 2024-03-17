@@ -1,0 +1,25 @@
+{
+  "name": "ui-library",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "./dist/index.js",
+  "type": "module",
+  "outputDir": "dist",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": "git@github.com:croissant0517/ui-library.git",
+  "author": "croissant <wathyic@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.8"
+  }
+}
